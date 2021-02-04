@@ -43,6 +43,7 @@ struct PhotoImage {
 struct PhotoImageList {
     var photoList : [PhotoImage] = []  // 画像のリスト
     private var storeImage : UIImage?               // フラット画像
+    var image : UIImage { get { return storeImage! }}
     
     // アクセスデータ
     var photoRect : CGRect { get { return getPhotoRect() }}
@@ -105,7 +106,7 @@ struct PhotoImageList {
         for item in photoList {
             // YAMAKI 切り取りした画像を描画
             // コンテキストに画像を描画する.
-            item.image!.draw(in: item.rect)
+            item.image!.draw(in: item.crop)
         }
         // コンテキストからUIImageを作る.
         let newImage = UIGraphicsGetImageFromCurrentImageContext()

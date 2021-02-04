@@ -16,7 +16,7 @@ struct ContentView: View {
             .onAppear{
             // 写真のリストデータを作成
             for index in 0 ... 2 {
-                let photoImage = PhotoImage(rect: CGRect(x: 12 * index, y: 10, width: 10, height: 15))
+                let photoImage = PhotoImage(rect: CGRect(x: 100 * index + 20, y: 20, width: 100, height: 150))
                 imageList.photoList.append(photoImage)
             }
         }

@@ -24,6 +24,16 @@ struct EditListView: View {
     let notEdit = -1                        // 選択していない
     
     var body: some View {
+        Button(action: {    // 保存
+            // フラット写真を作成
+            imageList.setFlatImage()
+            UIImageWriteToSavedPhotosAlbum(imageList.image, self,nil, nil)
+            
+        }){
+            VStack{
+                Text("画像を保存")
+            }.foregroundColor(.black)
+        }
         // 画像リストのビュー
         ZStack {
             // 画像リスト分のデータを表示
