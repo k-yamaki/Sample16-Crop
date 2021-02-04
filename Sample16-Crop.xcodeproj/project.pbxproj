@@ -11,6 +11,12 @@
 		AEDF822625CA6A670007CD2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF822525CA6A670007CD2F /* ContentView.swift */; };
 		AEDF822825CA6A6A0007CD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDF822725CA6A6A0007CD2F /* Assets.xcassets */; };
 		AEDF822B25CA6A6A0007CD2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDF822A25CA6A6A0007CD2F /* Preview Assets.xcassets */; };
+		AEDF823425CA6AC40007CD2F /* CropData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF823325CA6AC40007CD2F /* CropData.swift */; };
+		AEDF823725CA6B170007CD2F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF823625CA6B170007CD2F /* Common.swift */; };
+		AEDF823A25CA6E380007CD2F /* PhotoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF823925CA6E380007CD2F /* PhotoImage.swift */; };
+		AEDF823D25CA703C0007CD2F /* EditListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF823C25CA703C0007CD2F /* EditListView.swift */; };
+		AEDF824025CA71260007CD2F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF823F25CA71260007CD2F /* ImageView.swift */; };
+		AEDF824325CAA3250007CD2F /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF824225CAA3250007CD2F /* CropView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		AEDF822725CA6A6A0007CD2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEDF822A25CA6A6A0007CD2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEDF822C25CA6A6A0007CD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDF823325CA6AC40007CD2F /* CropData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropData.swift; sourceTree = "<group>"; };
+		AEDF823625CA6B170007CD2F /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		AEDF823925CA6E380007CD2F /* PhotoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImage.swift; sourceTree = "<group>"; };
+		AEDF823C25CA703C0007CD2F /* EditListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListView.swift; sourceTree = "<group>"; };
+		AEDF823F25CA71260007CD2F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		AEDF824225CAA3250007CD2F /* CropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +66,13 @@
 			children = (
 				AEDF822325CA6A670007CD2F /* Sample16_CropApp.swift */,
 				AEDF822525CA6A670007CD2F /* ContentView.swift */,
+				AEDF823C25CA703C0007CD2F /* EditListView.swift */,
+				AEDF823F25CA71260007CD2F /* ImageView.swift */,
+				AEDF823325CA6AC40007CD2F /* CropData.swift */,
+				AEDF824225CAA3250007CD2F /* CropView.swift */,
 				AEDF822725CA6A6A0007CD2F /* Assets.xcassets */,
+				AEDF823625CA6B170007CD2F /* Common.swift */,
+				AEDF823925CA6E380007CD2F /* PhotoImage.swift */,
 				AEDF822C25CA6A6A0007CD2F /* Info.plist */,
 				AEDF822925CA6A6A0007CD2F /* Preview Content */,
 			);
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDF823725CA6B170007CD2F /* Common.swift in Sources */,
 				AEDF822625CA6A670007CD2F /* ContentView.swift in Sources */,
 				AEDF822425CA6A670007CD2F /* Sample16_CropApp.swift in Sources */,
+				AEDF824325CAA3250007CD2F /* CropView.swift in Sources */,
+				AEDF823A25CA6E380007CD2F /* PhotoImage.swift in Sources */,
+				AEDF823D25CA703C0007CD2F /* EditListView.swift in Sources */,
+				AEDF824025CA71260007CD2F /* ImageView.swift in Sources */,
+				AEDF823425CA6AC40007CD2F /* CropData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
